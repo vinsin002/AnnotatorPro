@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.color{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.shapes{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.shp{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: auto;
+    
+}
+.tools{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+.tls{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 5px;
+   
+
+}
+
+.save{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 7px;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+.sv{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin: 6px;
+   
+
+}
+.b1{
+    padding: 10px;
+    color: red;
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+body {
+    width: 350px; 
+    height: 620px; 
+    border-radius: 15px;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.clr{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid white ;
+    background-color: white;
+    cursor: pointer;
+    margin: 6px;
+    
+}
+.btn{
+    background-color: aqua;
+    color: rebeccapurple;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.clr:nth-child(1){
+    background-color: #000;
+}
+.clr:nth-child(2){
+    background-color: #EF626C;
+}
+.clr:nth-child(3){
+    background-color: #fdec03;
+}
+.clr:nth-child(4){
+    background-color: #24d102;
+}
+.clr:nth-child(5){
+    background-color: #825cda;
+}
+.clr:nth-child(6){
+    background-color: #FFC0CB;
+}
+.clr:nth-child(7){
+    background-color: #33ACFF;
+}
+.clr:nth-child(8){
+    background-color: #964B00;
+}
+.clr:nth-child(9){
+    background-color: #87CEEB;
+}
+.clr:nth-child(10){
+    background-color: #DCDCF5;
+}
+
+
+
+#in-1{
+    appearance: none;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+#in-2{
+   
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+canvas{
+    border: 2px solid violet;
+}

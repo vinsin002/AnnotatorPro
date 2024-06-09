@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "AnnotatorPro",
+  "version": "1.0",
+  "description": "A powerful tool for annotating and organizing web content according to their preferences and needs.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "highlight-text": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+H",
+        "mac": "Shift+H"
+      },
+      "description": "Highlight Text"
+    }
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+  
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
