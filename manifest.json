@@ -13,15 +13,7 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "commands": {
-    "highlight-text": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+H",
-        "mac": "Shift+H"
-      },
-      "description": "Highlight Text"
-    }
-  },
+
 
   "action": {
     "default_popup": "popup.html"
