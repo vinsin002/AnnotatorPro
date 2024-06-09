@@ -543,15 +543,4 @@ async function saveasPDF() {
 
 
 
-// Shortcut
-chrome.commands.onCommand.addListener(function(command) {
-    if (command == "highlight-text") {
-      chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
-        chrome.scripting.executeScript({
-          target: { tabId: tabs[0].id },
-          function: highlightText,
-        });
-      });
-    }
-  });
   
